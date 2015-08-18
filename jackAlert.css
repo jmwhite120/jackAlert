@@ -1,0 +1,174 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	background-image: url("http://silviahartmann.com/background-tile-art/images/grey-repeating-background-5.jpg");
+    width: 100%;
+    height: 100%;
+
+}
+.header{
+	width:100%;
+	height: auto;
+	background-color: #eeff3f5;
+	padding-top: 24px;
+}
+
+.headerContent{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+.headerContent a img {
+	width:659px;
+	height: 144px;
+	margin: 0px auto;
+	display: block;
+}
+.nav{
+	margin-top: 0px;
+	height: 40px;
+	background: black;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+	
+}
+.nav ul li{
+	list-style: none;
+	font-family: Lucida Console;
+}
+.nav ul li a{
+
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding-left: 20px;
+	padding: 10px 60px;
+	color:white;
+}
+
+.nav ul li a:hover{
+	color:red;
+}
+
+.headerBreak{
+	width: 100%;
+	height: 0;
+	border-bottom: 2px solid #000000;
+}
+
+.wrapper{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  
+}
+
+
+
+
+#page1 {
+    position: relative;
+     display:inline-block;
+     border: 5px black dashed;
+     margin: 3%;
+     margin-top: 3%;
+     
+    }
+
+ p {
+    font-family: "Courier New" ; 
+    font-weight: bold;
+    font-size: 20px
+}
+   
+    #page1 iframe {
+     position: absolute;
+     left: 900px;
+     width: 50%;
+    }
+#slideContent{
+	width: 30%;
+
+}
+
+    #slideshow img{
+      width:100%;
+      height: 100%;
+
+    }
+
+    #slideshow { 
+    margin: 10px auto; 
+    position: relative; 
+    width: 540px; 
+    height: 440px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+
+  #imagespace {
+    display: absolute;
+    margin: 50px;
+  }
+  
+  #imagespace  img {
+    width:30%;
+    border: 10px red groove;
+  }
+   
+  #page2 {
+    width:70%;
+     position: relative;
+    border: 5px black dashed;
+    margin:15%
+  }
+
+  #page2 iframe {
+    float: right;
+    width: 50%;
+  }
+  
+  h3{
+  color: black;
+  front-size: 200px;
+  text-align: center;
+  }
+  
+  h2{
+  color: black;
+  front-size: 32px;
+  
+  }
+ #who{
+  padding-left: 400px;
+  padding-bottom: -20px;
+  color: red;
+ }
+ #who2{
+  padding-left: 450px;
+  padding-bottom: -20px;
+  color: red;
+ }
+#page3 {
+    width: 70%;
+    margin: 12px 15%;
+    float: left;
+    border: 5px black dashed;
+    
+  }
+  
+  #page3 p{
+    padding-left: 20px;
+    padding-top: 10px;
+  }
