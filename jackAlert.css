@@ -45,7 +45,7 @@ body{
 	display: block;
 	padding-left: 20px;
 	padding: 10px 60px;
-	color:white;
+	color: white;
 }
 
 .nav ul li a:hover{
@@ -72,21 +72,31 @@ body{
     position: relative;
      display:inline-block;
      border: 5px black dashed;
-     margin: 3%;
-     margin-top: 3%;
+      margin:5% 10% 5% 10%;
      
     }
 
  p {
+    margin-left:25px;
     font-family: "Courier New" ; 
     font-weight: bold;
     font-size: 20px
+
+}
+p1 {
+    margin-left:150px;
+    font-family: "Courier New" ; 
+    font-weight: bold;
+    font-size: 20px
+
+
 }
    
     #page1 iframe {
      position: absolute;
      left: 900px;
      width: 50%;
+     
     }
 #slideContent{
 	width: 30%;
@@ -100,7 +110,7 @@ body{
     }
 
     #slideshow { 
-    margin: 10px auto; 
+    margin: 50px auto; 
     position: relative; 
     width: 540px; 
     height: 440px; 
@@ -131,12 +141,13 @@ body{
     width:70%;
      position: relative;
     border: 5px black dashed;
-    margin:15%
-  }
-
+     margin:5% 15% 5% 15%;
+}
   #page2 iframe {
     float: right;
     width: 50%;
+   
+
   }
   
   h3{
@@ -151,14 +162,14 @@ body{
   
   }
  #who{
-  padding-left: 400px;
-  padding-bottom: -20px;
+  text-align: center;
   color: red;
+    margin:0% 0% 0 0%;
  }
  #who2{
-  padding-left: 450px;
-  padding-bottom: -20px;
+  text-align: center;
   color: red;
+  margin:0% 0% 0 0%;
  }
 #page3 {
     width: 70%;
@@ -172,3 +183,7 @@ body{
     padding-left: 20px;
     padding-top: 10px;
   }
+
+  #footer {
+  bottom: 0px;
+}
