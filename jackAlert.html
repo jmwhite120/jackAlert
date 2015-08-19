@@ -1,25 +1,192 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
+  <meta charset='UTF-8'>
+	<title> jackAlert.com | Home </title>
+<link rel="stylesheet" type="text/css" href="jackAlert.css">
+<script type="text/javascript" src="jackAlert.js"></script>
 <title>jackAlert</title>
 </head>
-<body>
-	<style>
-	img{
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+<style>
+img.floatLeft{
+    float: left;
+    margin: 4 px;
 }
-	</style>
-	
-<a href="file:///Users/ada/Documents/jackAlertHome" target="_blank"> <img class="jackPic"src="http://i62.tinypic.com/2ldbl37.png" border="0"> </a>
+img.floatRight{
+    float: right;
+    margin: 4 px;
+}
+</style>
+<body>
+  <div class="wrapper">
+      
 
+ 
+
+  <script src="jackalert2.js"></script>
+  <script>
+    $(function() {
+
+      $("#slideshow > div:gt(0)").hide();
+
+      setInterval(function() {
+        $('#slideshow > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slideshow');
+      },  3000);
+
+    });
+  </script>
+
+	<div class = "header">
+		<div class =  "headerContent">
+			<a href = "#">
+			 <img class="jackPic"src="http://i60.tinypic.com/nd76yu.png" >
+		    </a>
+      
+<div class = "nav">
+	<ul id="list_items">
+  <li><a href="#page1">Home</a></li>
+  <li><a href="#page2">Creators</a></li>
+  <li><a href="#page3">Consumers</a></li>
+  <li><a href="http://girlswhocode.com/" target="_blank">GWC</a></li>
+   <li><a href="http://abc.go.com/shows/shark-tank" target="_blank" >Next Level</a></li>
+</ul>
+  </div>
+    </div>
+        <div class = "headerBreak" > </div>
+     </div>
+ 
+      <div id="slideshow">
+    
+      <div>
+       <img src="http://i58.tinypic.com/imtcn9.jpg">
+     </div>
+      <div>
+       <img src="http://i61.tinypic.com/29llb8p.jpg">
+     </div>
+      <div>
+       <img src="http://i60.tinypic.com/16k55jc.jpg">
+     </div>
+      <div> 
+       <img src="http://i60.tinypic.com/4juqe0.jpg">
+     </div>
+      <div>
+       <img src="http://www.imageurlhost.com/images/lz2muvzlatzrkn1ftsrf.jpg">
+     </div>
+      <div> 
+       <img src="http://i59.tinypic.com/51zq1h.jpg">
+     </div>
+      <div>
+       <img src="http://www.imageurlhost.com/images/dhd11ev924qfgmlv2dj.jpg">
+     </div>
+      <div>
+       <img src="http://i60.tinypic.com/16k55jc.jpg">
+     </div>
+      <div>
+       <img src="http://i58.tinypic.com/mshaib.jpg">
+     </div>
+      <div>
+       <img src="http://i57.tinypic.com/11rchm9.jpg">
+     </div>
+      <div>
+       <img src="http://i60.tinypic.com/21eviu9.png">
+     </div>
+
+
+  </div>
+<div id="page1">
+    <p> <strong>According to RAIN</strong>:
+ 1 in 6 women in America have been victims of attempted or completed rape in her lifetime. 1 in 33 of the victims are men.
+Every 107 seconds, an American is sexually assaulted.
+68% of these sexual assaults go unreported.
+98% of rapist/attackers will never spend a day in prison.
+ </p> <br />
+ <p> <strong>Solution</strong>:
+
+         We created jackALERT in order to bring attention the women and men who do not feel safe walking the streets alone.
+jackALERT will bring notice to an attack and allow for a victim to gain outside help.  
+The feeling of safety in one of the most dangerous cities in the country. While still looking good while doing it.
+</p> <br />
+</div>
+ <div id="who"> 
+ <h1>Who Are We?</h1>
+ </div>
+
+<div id="page2">
+  <div id="imagespace">
+ <h3><a href="http://girlswhocode.com/">Girls Who Code</a></h3> 
+  <div>
+  <h2><a>Reem Hussein<a></h2>
+ <img src="images/reem.PNG"  height="250" class="floatLeft">  
+ <br/> 
+ <p1> "Single and ready for a pringle. Food is my life. I enjoy long walks on the beach. I enjoy binging on Netflix.
+ I'm pretty cool or so my mom claims. Cats are great too. I don't know what else to say, so bye." -Reem.</p1> 
+ </div>  <br/> <br /> <br /> <br /><br />
+ <div>
+  <h2><a>Molly Mueller</a></h2>
+
+ <img src="images/molly.jpg"  height="250" class="floatLeft"> 
+ <br/>  <br/> 
+ <p1>"Hey I'm Molly Mueller! I am very excited about this
+  project and all it's possibilites it can have, even though I have poked myself multiple times. While sewing the jacket. This team is amazing and i am 
+ honored to be part of this project." -Molly </p1> </div> <br/> <br/> 
+ <div>
+ <h2><a>Melody Quintero<a></h2>
+<img  Hi name is Melody src="images/melody.JPG" height="250" class="floatLeft">
+<br/>  <br/> 
+<p1>"Hi, My name is Melody Quintero from Girls who code. As our final project, we designed and program a jacket which could potentially save somebody life. 
+I'm excited to work on this project with my team and having to the chance to share and create such a great idea together."-Melody</p1>
+</div> <br/> <br/> 
+<div>
+<h2> <a>Jasmine White<a></h2>
+ <img src="images/Jr.jpg"  height="250" class="floatLeft">  
+ <br/> <br/> 
+ <p1>"Hellooooo, I am Jasmine. I like cheese and tv. A cheese tv gathering could be a good thing. Just fun people looking for a good time - watching tv an deating a variety of cheese. Best night I could ever imagine." -Jasmine </p1>
+</div> <br/> <br/> <br/> <br/>
+  </div> 
+  </div>
+</div>
+    <div id="who2"> 
+ <h1>Consumers</h1>
+ </div>
+
+<div id="page3">
+     <p> Who:
+Young women and men who want a sense of protection.
+</p>
+<p>
+Ages:
+15-30
+</p>
+<p> If this was to be manufactured, we would be set on selling the jacket to interested buyers in various locations.
+
+</p>
+
+     </div>
+
+<div id="footer">
+   	 <span>Copyright  &copy;
+      <br> All Rights Reserved @ jackALERT </br> 
+    </span>
+   	 <div class = "footerBreak" > </div>
+    </div>
+        
+<div id="footer">
+  Footer content
+</div>
+<script>
+  var footerResize = function() {
+    $('#footer').css('position', $("body").height() + $("#footer").innerHeight() > $(window).height() ? "inherit" : "fixed");
+  };
+  $(window).resize(footerResize).ready(footerResize);
+</script>    
 </body>
 </html>
+
 
 
  
